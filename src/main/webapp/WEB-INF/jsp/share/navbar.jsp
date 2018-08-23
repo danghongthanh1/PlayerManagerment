@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="${pageContext.request.contextPath}/">Home</a>
+  <a class="navbar-brand" href="${pageContext.request.contextPath}/homepage">Home</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -16,7 +16,7 @@
     <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Employee
+        Person
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="${pageContext.request.contextPath}/person/view-list">View list person </a>
